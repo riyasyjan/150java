@@ -1,0 +1,14 @@
+import java.util.*;
+class Multiple_prog6{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+
+        if(n%m == 0){
+            System.out.println(n+ " is an exact multiple of "+m);
+        }else{
+            System.out.println(n +" is not an exact mulitple of "+m);
+        }
+    }
+}
